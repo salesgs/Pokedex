@@ -1,0 +1,25 @@
+*{
+  font-family: 'Roboto',sans-serif;
+  box-sizing: border-box;
+}
+.content{
+  /*espaçamento de 16px nos 4 lados*/
+  padding: 1rem;
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+@media screen and (min-width:962px){
+  .content{
+    max-width: 962px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+.content h1{
+  /*espaçamento de margem externo zerado em todas as direções*/
+  margin: 0;
+}
